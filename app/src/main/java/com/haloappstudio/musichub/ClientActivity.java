@@ -3,7 +3,7 @@ package com.haloappstudio.musichub;
 import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -16,7 +16,7 @@ import com.koushikdutta.async.http.WebSocket;
 import java.io.File;
 
 
-public class ClientActivity extends ActionBarActivity{
+public class ClientActivity extends AppCompatActivity{
     private AsyncHttpClient  mAsyncHttpClient;
     private AsyncHttpClient.WebSocketConnectCallback mWebSocketConnectCallback;
     private WebSocket mWebSocket;

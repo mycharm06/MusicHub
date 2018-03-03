@@ -17,6 +17,7 @@
 
         <Button
             android:id="@+id/prev_button"
+            style="@style/Widget.AppCompat.Button.Colored"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -24,6 +25,7 @@
 
         <Button
             android:id="@+id/sync_button"
+            style="@style/Widget.AppCompat.Button.Colored"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -32,6 +34,7 @@
 
         <Button
             android:id="@+id/next_button"
+            style="@style/Widget.AppCompat.Button.Colored"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -40,6 +43,7 @@
 
     <Button
         android:id="@+id/stop_server_button"
+        style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/stop" />

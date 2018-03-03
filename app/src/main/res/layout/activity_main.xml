@@ -12,12 +12,14 @@
 
     <Button
         android:id="@+id/create_hub_button"
+        style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/create" />
 
     <Button
         android:id="@+id/join_hub_button"
+        style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/join" />

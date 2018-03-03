@@ -5,11 +5,11 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:padding="2dp"
-        android:textSize="20sp"
         android:id="@+id/textView"
-        android:text="myna"
-        android:layout_gravity="center_horizontal" />
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_gravity="center_horizontal"
+        android:padding="2dp"
+        android:text="Music Hub"
+        android:textSize="30sp" />
 </LinearLayout>

@@ -13,7 +13,7 @@ import android.support.v4.content.CursorLoader;
 import android.support.v4.content.Loader;
 import android.support.v4.view.MenuItemCompat;
 import android.support.v4.widget.SimpleCursorAdapter;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.SearchView;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -32,7 +32,7 @@ import com.haloappstudio.musichub.utils.WifiApManager;
 import java.util.HashMap;
 
 
-public class SongsListActivity extends ActionBarActivity
+public class SongsListActivity extends AppCompatActivity
         implements LoaderManager.LoaderCallbacks<Cursor> {
     static final String[] PROJECTION = {
             MediaStore.Audio.Media._ID,
